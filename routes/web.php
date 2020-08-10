@@ -19,6 +19,10 @@ Route::get('/testq', function(){
 	return "test";
 });
 
+Route::get('/question', function() {
+	return "Are you testing, dah?";
+});;
+
 
 Route::get('/{vue?}',  function(){
 	return view('layouts.app');
